@@ -17,7 +17,7 @@ from functools import wraps
 #   FLASK APP INTIALIZE AND CONFIG
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../Advance/69_Blog_part_final/blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../blog.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 #   CK-EDITOR INITIALIZE
